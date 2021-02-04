@@ -1,0 +1,19 @@
+{
+  "name": "vitepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zkwolf/vitepress-starter.git",
+  "author": "zkwolf <chenhao5866@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.11.5"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.0.0-rc.9"
+  }
+}
