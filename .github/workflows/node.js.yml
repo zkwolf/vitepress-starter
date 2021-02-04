@@ -24,6 +24,7 @@ jobs:
         cmd: docs:build
     
     - name: deploy
-      run: git add -A
-      run: git commit -m 'deploy'
-      run: git push git@github.com:zkwolf/vitepress-starter.git master
+      run: |
+        git add -A
+        git commit -m 'deploy'
+        git push git@github.com:zkwolf/vitepress-starter.git master
